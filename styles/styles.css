@@ -1,0 +1,589 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "montserrat";
+    font-weight: 800;
+}
+p {
+    font-family: "manrope";
+    font-weight: 400;
+    font-size: 24px;
+    color: #444444;
+}
+
+/* navbar */
+.nav-item {
+    font-size: 16px;
+    font-family: "manrope";
+}
+
+/* header */
+/* #heading {
+    background: rgb(0,140,103);
+    /* background: rgb(0,140,103);
+    background: linear-gradient(180deg, rgba(0,140,103,1) 0%, rgba(38,176,124,1) 0%, rgba(29,222,135,1) 77%); */
+/* text-align: center;
+    padding-top: 12%;
+    padding-bottom: 9%;  
+} */
+
+#heading {
+    /* background-image: url("../images/bg.png"); */
+    /* background: linear-gradient(225deg, #225058, #077e7c, #029293, #2ec8cb, #27eae7); */
+    height: 100vh;
+    background-size: 238rem 200%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    animation: Rainbow 10s linear infinite;
+    text-align: center;
+    padding-top: 12%;
+}
+
+@keyframes Rainbow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+.motto {
+    font-family: "montserrat";
+    font-size: 36px;
+    color: white;
+}
+.weare {
+    font-size: 86px;
+}
+#andana {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#logo {
+    position: absolute;
+    right: 6%;
+    top: 23%;
+    width: 70%;
+    margin-top: 9%;
+}
+.inline-block {
+    display: inline-block;
+}
+.mid {
+    text-align: center;
+}
+.word {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 27.5%;
+    position: relative;
+    text-align: left;
+}
+.word h1 {
+    font-size:2.2vw;
+    color: rgb(0, 0, 0);
+}
+.word .anim {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    animation: animate 8.5s linear infinite;
+    opacity: 0;
+    display: inline-block;
+    color: #1f8d86;
+    max-width: 50%;
+}
+
+.word h1:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.word h1:nth-child(2) {
+    animation-delay: 1.7s;
+}
+
+.word h1:nth-child(3) {
+    animation-delay: 3.4s;
+}
+
+.word h1:nth-child(4) {
+    animation-delay: 5.1s;
+}
+.word h1:nth-child(5) {
+    animation-delay: 6.8s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    1% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    9% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    10% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    
+}
+
+/* content */
+#content {
+    text-align: center;
+
+    /* background-image: url("../images/papyrus.png"); */
+}
+.about {
+    padding-top: 7.5%;
+    padding-bottom: 5%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    width: 45%;
+}
+.about-logo {
+    width: 15%;
+    padding-bottom: 0%;
+}
+#content h1 {
+    font-size: 42px;
+    color: #0f6a6d;
+}
+#content h2 {
+    font-size: 56px;
+    color: #43afb3;
+}
+#content .desc {
+    text-align: center;
+    font-size: 22px;
+}
+.line {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    width: 30%;
+    height: 6px;
+    background-color: #0f6a6d;
+}
+
+.service {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 7.5%;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    /* background-image: url("../images/webb.png"); */
+}
+.even {
+    text-align: right;
+}
+.weDo {
+    font-size: 56px;
+    color: #0f6a6d;
+}
+#content .col {
+    text-align: center;
+}
+
+.slider {
+    text-align: center;
+}
+#carouselExampleControls1 {
+    max-width: 85%;
+    padding: 0;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+#carouselExampleControls2 {
+    max-width: 85%;
+    padding: 0;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+#carouselExampleControls3 {
+    max-width: 85%;
+    padding: 0;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+#carouselExampleControls4 {
+    max-width: 85%;
+    padding: 0;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+.barOdd {
+    height: 10px;
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 4%;
+    background-color:#1f8d86;
+}
+.barEven {
+    height: 10px;
+    width: 85%;
+    margin-right: 15%;
+    margin-top: 4%;
+    background-color:#1f8d86;
+}
+
+.slider img {
+    margin-top: 12%;
+    margin-bottom: 12%;
+    width: 85%;
+    border: 1px solid #0f6a6d;
+}
+.service h1 {
+    padding-bottom: 7%;
+}
+.list ul {
+    margin-top: 10%;
+}
+.list p {
+    font-size: 30px;
+}
+.odd .desc {
+    margin-top: 10%;
+    margin-right: 25%;
+}
+.even .desc {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.odd .desc p {
+    font-size: 20px;
+    text-align: left;
+}
+.even .desc p {
+    font-size: 20px;
+    text-align: right;
+}
+.andanaDesc{
+    font-size: 22px;
+}
+
+
+/* testimoni */
+#testimoni {
+    background-color: #f1f1f1;
+    padding-top: 5%;
+    padding-bottom: 7.5%;
+}
+
+#testimoni h1 {
+    font-size: 64px;
+    color: #0f6a6d;
+}
+
+#testimoni h2 {
+    color: #43afb3;
+}
+#testimoni p {
+    font-size: 24px;
+}
+.galleryLine {
+    height: 10px;
+    width: 100%;
+    background-color: #0f6a6d;
+    margin-bottom: 1%;
+}
+.text0 {
+    text-align: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 6%;
+}
+
+.text1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+
+}
+
+.text2 {
+    padding-bottom: 0%;
+    margin-right: 6%;
+    text-align: right;
+}
+
+.text3 {
+    padding-bottom: 1%;
+}
+#testimoni h4 {
+    font-family: "manrope";
+}
+.porto {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.portoTitle {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+#testimoni .col-lg-7 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.carousel-item:hover {
+    overflow: hidden;
+}
+.card-deck {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.card-body {
+    padding: 1rem;
+}
+/* .card-img-top:hover {
+    opacity: 0.6;
+} */
+/* .card {
+    transition: transform .2s;
+}
+.card1 .card:hover {
+    transform: scale(1.1);
+}
+.card2 .card:hover {
+    transform: scale(1.06);
+} */
+.card-title {
+    margin-bottom: 0;
+}
+.arc {
+    padding-top: 0;
+}
+/* whyus */
+#whyus {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 100%;
+}
+#whyus .content {
+    margin: 0;
+    padding: 0;
+}
+#whyus .row {
+    margin: 0;
+}
+#whyus h1 {
+    font-size: 50px;
+    color: #0f6a6d;
+    margin-left: 10%;
+}
+#whyus h2 {
+    color: #43afb3;
+    padding-top: 10%;
+}
+#whyus img {
+    margin-left: 5%;
+    width: 100%;
+}
+#whyus .desc {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#whyus p {
+    text-align: left;
+    font-size: 18px;
+}
+/* partner */
+#partner  {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#partner h1 {
+    color: #0f6a6d;
+}
+.logo-porto {
+    width: 65%;
+}
+/* footer */
+#footer {
+    background-color: #0f6a6d;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 0.1%;
+}
+#footer h1, #footer h2, #footer h4{
+    color: white;
+    
+}
+#footer h1 {
+    font-size: 55px;
+}
+.contact-me .row {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+.socmed-ico {
+    width: 3.5%;
+    display: inline-block;
+}
+#footer h4 {
+    font-family: "manrope";
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 1%;
+}
+#footer a:hover {
+    text-decoration: none;
+}
+.copyright {
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+}
+.copyright h5 {
+    font-size: 16px;
+    font-family: "manrope";
+    font-weight: 200;
+    margin-bottom: 4px;
+}
+
+/* Media Querry */
+@media (max-width: 575.98px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        font-size: 15px;
+    }
+    #heading {
+        animation: Rainbow 20s linear infinite;
+        padding-top: 40%;
+    }
+    .motto {
+        font-size: 18px;
+    }
+    .weare {
+        font-size: 65px;
+    }
+    .help {
+        margin-left: 0;
+    }
+    .word {
+        display: none;
+    }
+    #section10 {
+        display: none;
+    }
+    .about {
+        margin: 2.5%;
+        padding: 2.5%;
+        width: 95%;
+        text-align: center;
+    }
+    .about-logo {
+        width: 25%;
+    }
+    #content h1 {
+        font-size: 25px;
+    }
+    #content h3 {
+        font-size: 20px;
+    }
+    #content .col {
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    #content .desc {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .line {
+        width: 40%;
+        height: 3px;
+    }
+    .service {
+        margin: 2.5%;
+        padding: 2.5%;
+        width: 95%;
+        text-align: center;
+    }
+    .service img {
+        padding-bottom: 0;
+    }
+    #testimoni h1 {
+        font-size: 40px;
+    }
+    #testimoni h2 {
+        display: none;
+    }
+    #testimoni p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .logo-porto {
+        width: 90%;
+    }
+    #whyus .desc {
+        padding: 0;
+    }
+    #whyus p{
+        text-align: justify;
+    }
+    #whyus h1 {
+        font-size: 30px;
+        margin-left: 0;
+    }
+    #whyus img {
+        margin-left: 0;
+    }
+    #footer {
+        padding-top: 15%;
+        padding-left: 0;
+        text-align: center;
+    }
+    #footer h1 {
+        font-size: 30px;
+    }
+    #footer h3 {
+        font-size: 20px;
+    }
+    #footer h4 {
+        font-size: 18px;
+    }
+    #footer h5 {
+        font-size: 15px;
+    }
+    .socmed {
+        padding-left: 5%;
+        text-align: left;
+    }
+    .socmed-ico {
+        width: 10%;
+    }
+    .copyright {
+        padding-top: 15%;
+    }
+}
