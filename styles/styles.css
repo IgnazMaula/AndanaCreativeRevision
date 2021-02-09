@@ -82,14 +82,14 @@ p {
 }
 .word {
     text-align: center;
-    margin-top: 4%;
-    margin-left: 27.5%;
+    margin-top: 2%;
+    margin-left: 27%;
     position: relative;
     text-align: left;
 }
 .word h1 {
     font-size:2.2vw;
-    color: rgb(0, 0, 0);
+    color: #444444;
 }
 .word .anim {
     position: absolute;
@@ -152,15 +152,15 @@ p {
 /* content */
 #content {
     text-align: center;
-
+    padding-bottom: 5%;
     /* background-image: url("../images/papyrus.png"); */
 }
 .about {
     padding-top: 7.5%;
     padding-bottom: 5%;
-    margin-left: 27.5%;
-    margin-right: 27.5%;
-    width: 45%;
+    margin-left: 26%;
+    margin-right: 26%;
+    width: 48%;
 }
 .about-logo {
     width: 15%;
@@ -168,13 +168,15 @@ p {
 }
 #content h1 {
     font-size: 42px;
-    color: #0f6a6d;
+    color: #00bfac;
 }
 #content h2 {
-    font-size: 56px;
-    color: #43afb3;
+    font-size: 52px;
+    color: #00bfac;
 }
 #content .desc {
+    margin-top: 5%;
+    margin-right: 5%;
     text-align: center;
     font-size: 22px;
 }
@@ -182,9 +184,9 @@ p {
     margin: auto;
     margin-top: 2%;
     margin-bottom: 7%;
-    width: 30%;
+    width: 36%;
     height: 6px;
-    background-color: #0f6a6d;
+    background-color: #00bfac;
 }
 
 .service {
@@ -192,7 +194,7 @@ p {
     margin-left: 5%;
     margin-right: 7.5%;
     padding-top: 5%;
-    padding-bottom: 2.5%;
+    padding-bottom: 8%;
     /* background-image: url("../images/webb.png"); */
 }
 .even {
@@ -209,29 +211,40 @@ p {
 .slider {
     text-align: center;
 }
+#laptop-bg {
+    margin-top: 0;
+    left: 0;
+    width: 125%;
+    border: none;
+    position: absolute;
+}
 #carouselExampleControls1 {
-    max-width: 85%;
+    max-width: 82%;
     padding: 0;
-    margin-left: 15%;
-    margin-top: 4%;
+    left: 18.85%;
+    margin-top: 4.5%;
+    position: absolute;
 }
 #carouselExampleControls2 {
-    max-width: 85%;
+    max-width: 82%;
     padding: 0;
-    margin-right: 15%;
-    margin-top: 4%;
+    left: 18.85%;
+    margin-top: 4.5%;
+    position: absolute;
 }
 #carouselExampleControls3 {
-    max-width: 85%;
+    max-width: 82%;
     padding: 0;
-    margin-left: 15%;
-    margin-top: 4%;
+    left: 18.85%;
+    margin-top: 4.5%;
+    position: absolute;
 }
 #carouselExampleControls4 {
-    max-width: 85%;
+    max-width: 82%;
     padding: 0;
-    margin-right: 15%;
-    margin-top: 4%;
+    left: 18.85%;
+    margin-top: 4.5%;
+    position: absolute;
 }
 .barOdd {
     height: 10px;
@@ -252,139 +265,97 @@ p {
     margin-top: 12%;
     margin-bottom: 12%;
     width: 85%;
-    border: 1px solid #0f6a6d;
 }
 .service h1 {
     padding-bottom: 7%;
 }
+.help {
+    color: #00bfac;
+}
 .list ul {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .list p {
-    font-size: 30px;
-}
-.odd .desc {
-    margin-top: 10%;
-    margin-right: 25%;
-}
-.even .desc {
-    margin-top: 10%;
-    margin-left: 25%;
-}
-.odd .desc p {
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
 }
-.even .desc p {
-    font-size: 20px;
-    text-align: right;
+.list ul li p {
+    font-size: 27px;
+    font-weight: 800;
 }
 .andanaDesc{
-    font-size: 22px;
+    font-size: 23px;
+    margin-top: 8%;
+    font-weight: 600;
+    text-align: left;
 }
 
 
 /* testimoni */
 #testimoni {
-    background-color: #f1f1f1;
     padding-top: 5%;
     padding-bottom: 7.5%;
 }
-
-#testimoni h1 {
-    font-size: 64px;
-    color: #0f6a6d;
+#testimoni .col-lg-4 {
+    padding: 0;
+}
+#testimoni img {
+    max-width: 100%;
 }
 
-#testimoni h2 {
-    color: #43afb3;
+.image-wrap {
+    position: relative;
 }
-#testimoni p {
-    font-size: 24px;
+.image-description {
+    text-align: center;
 }
-.galleryLine {
-    height: 10px;
-    width: 100%;
-    background-color: #0f6a6d;
-    margin-bottom: 1%;
-}
-.text0 {
-    text-align: right;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-right: 6%;
-}
-
-.text1 {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: 6%;
-
-}
-
-.text2 {
-    padding-bottom: 0%;
-    margin-right: 6%;
-    text-align: right;
-}
-
-.text3 {
-    padding-bottom: 1%;
-}
-#testimoni h4 {
+.image-description h1{
     font-family: "manrope";
+    color: white;
 }
-.porto {
-    margin-left: 6%;
-    margin-right: 6%;
+.image-description p{
+    font-family: "manrope";
+    color: white;
 }
-.portoTitle {
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-#testimoni .col-lg-7 {
-    padding-right: 0;
-    padding-left: 0;
-}
-.carousel-item:hover {
-    overflow: hidden;
-}
-.card-deck {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-}
-.card-body {
-    padding: 1rem;
-}
-/* .card-img-top:hover {
-    opacity: 0.6;
-} */
-/* .card {
-    transition: transform .2s;
-}
-.card1 .card:hover {
-    transform: scale(1.1);
-}
-.card2 .card:hover {
-    transform: scale(1.06);
-} */
-.card-title {
-    margin-bottom: 0;
-}
-.arc {
-    padding-top: 0;
-}
-/* whyus */
-#whyus {
-    padding-top: 7%;
-    padding-bottom: 10%;
-    text-align: center;
+.image-wrap .image-description {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+    transition: 0.3s ease-out;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width:auto;
+  }
+  .image-wrap .g1:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(14,199,181);
+    background: linear-gradient(0deg, rgba(14,199,181,1) 0%, rgba(84,237,222,1) 100%);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    height: 100%;
     width: 100%;
+    content: "";
+  }
+  .image-wrap:hover .g1:after {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .image-wrap:hover .image-description {
+    opacity: 1;
+  }
+  
+#whyus {
+    padding-top: 5%;
 }
+
 #whyus .content {
     margin: 0;
     padding: 0;

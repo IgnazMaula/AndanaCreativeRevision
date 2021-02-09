@@ -18,7 +18,7 @@ navItem.addEventListener("click", function() {
 
 function mobileViewport(mobile) {
     if (mobile.matches) { // If media query matches
-        logo.setAttribute("src", "images/logo-title.png")
+        logo.setAttribute("src", "images/logo-small.png")
         $(".carousel").removeAttr("data-aos", "data-aos-anchor-placement");
         $(".about").removeAttr("data-aos", "data-aos-anchor-placement");
         $(".service").removeAttr("data-aos", "data-aos-anchor-placement");
@@ -39,12 +39,12 @@ $(window).scroll(function() {
         var mobile = window.matchMedia("(max-width: 575.98px)")
         if(!mobileViewport(mobile)) {
             if(!mobileViewport(tab)) {
-                logo.setAttribute("src", "images/logo-white-2.png")
+                logo.setAttribute("src", "images/logo.png")
             }    
         }   
     }
     else {
-        logo.setAttribute("src", "images/logo-title.png")
+        logo.setAttribute("src", "images/logo-small.png")
         
     }
     
