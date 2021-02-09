@@ -211,6 +211,9 @@ p {
 .slider {
     text-align: center;
 }
+/* .wrp {
+    position: relative;
+} */
 #laptop-bg {
     margin-top: 0;
     left: 0;
